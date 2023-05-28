@@ -1,6 +1,10 @@
 //standard variables for JS file
 var currentDay = $("#currentDay");
 var currentTime = $("#currentTime");
+var isPresent = dayjs().format("H");
+var saveBtn = $("#save").text();
+
+
 
 
 
