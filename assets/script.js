@@ -1,4 +1,6 @@
-
+//standard variables for JS file
+var currentDay = $("#currentDay");
+var currentTime = $("#currentTime");
 
 
 
