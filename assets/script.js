@@ -34,9 +34,22 @@ $(".time-block").each(function () {
   }
 });
 
+//this will save input that is displayed on screen
+$('.time-block').each(function () {
+  var timeBlock = $(this).attr('id');
+  var meetings = localStorage.getItem(timeBlock);
+
+  if (meetings) {
+      $(this).find("textarea").val(meetings);
+  }
+});
+
+var currentDay = dayjs().format('MMMM D, YYYY');
+    var headerElement = document.getElementById('currentDay');
+    headerElement.textContent = currentDay;
 
 
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
+    // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
