@@ -15,3 +15,4 @@ To use this application:
 https://github.com/anaunique24/MyWorkDayScheduler/assets/128003940/452a923d-c3a0-4136-827a-822445f0fb2d
 
 ## Deployed Link
+https://anaunique24.github.io/MyWorkDayScheduler/ 
